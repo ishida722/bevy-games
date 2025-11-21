@@ -1,0 +1,30 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Bevy
+assets/**/*.meta
+
+# Build artifacts
+dist/
+build/
+
+# Debug
+*.dSYM/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
